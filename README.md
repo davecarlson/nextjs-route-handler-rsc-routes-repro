@@ -207,5 +207,12 @@ Next.js  16.3.1 (Turbopack)
 Node     24.x
 ```
 
+Also reproduces on `next@canary` (16.3.1-canary.24) with identical counts:
+
+```bash
+npm install next@canary
+npm run build
+```
+
 Code above is quoted from the compiled `next/dist/build/adapter/build-complete.js`. The source file is
 `packages/next/src/build/adapter/build-complete.ts`.
